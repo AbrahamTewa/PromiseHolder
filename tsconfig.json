@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+
+    "isolatedModules": true,
+    "lib": [
+      "ES2015",
+      "DOM"
+    ],
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "importHelpers": false,
+    "experimentalDecorators": true,
+
+    "allowUnusedLabels": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "allowJs": false,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitOverride": true,
+  },
+  "include": [
+    "./src/**.ts",
+  ]
+}
